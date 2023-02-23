@@ -1,11 +1,24 @@
-import * as React from "react"
+import React, { useEffect, useState } from "react"
 import { Flex, Image, Container, HStack, Link } from "@chakra-ui/react" 
 
 const Header = () => {
-    const [whereIam, setWhereIam] = React.useState('about');
+    const [whereIam, setWhereIam] = useState('about');
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
-        <Flex w="100vw" position="fixed" top="0" left="0" background="bg_color" zIndex="1000">
+        <Flex w="100vw" position="fixed" top="0" left="0" background={scrollPosition >= 40 ? "bg_color" : "transparent" }zIndex="1000">
             <Container  maxW="90rem" margin="auto" padding="2.5 16">
                 <Flex   
                     align="center" 

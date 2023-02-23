@@ -8,6 +8,9 @@ import Header from "../components/Header"
 import Inicio from "../components/Inicio"
 import Sobre from "../components/Sobre"
 import Projetos from "../components/Projetos"
+import Festas from "../components/Festas"
+import Equipe from "../components/Equipe"
+import Footer from "../components/Footer"
 
 const IndexPage = () => {
 
@@ -16,17 +19,16 @@ const IndexPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>CACIC</title>
-        <link rel="icon" type="image/x-icon" href="./logo.svg"></link>
+        <link rel="icon" type="image/x-icon" href="./logo2_com_fundo.png"></link>
         <meta name="description" content="CACIC | Associação estudantil sem fins lucrativos" />
       </Helmet>
-
       <Flex
         align="center" 
         justify="center"
         fontFamily="Roboto"
         background="bg_color"
         flexDirection="column"
-        backgroundImage="radial-gradient(20% 20% at 13% 25%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%), radial-gradient(30% 30% at 94% 60%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%)"
+        backgroundImage="radial-gradient(25% 9% at 13% 5%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%), radial-gradient(25% 10% at 94% 20%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%), radial-gradient(20% 8% at 0% 40%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%), radial-gradient(25% 10% at 95% 60%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%), radial-gradient(20% 8% at 2% 85%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%)"
         overflow="hidden"
         zIndex="50"
       >
@@ -34,7 +36,9 @@ const IndexPage = () => {
         <Inicio />
         <Sobre />
         <Projetos />
-
+        <Festas />
+        <Equipe />
+        <Footer />
       </Flex>
     </ChakraProvider>
   )
