@@ -4,7 +4,7 @@ import { Flex, Image, Container, Text, Button, HStack } from "@chakra-ui/react"
 const Projetos = () => {
 
     return (
-        <Flex w="100vw" mt="11.25rem">
+        <Flex id="projetos" w="100vw" mt="11.25rem">
             <Container  maxW="90rem" margin="auto" padding="2.5 16">
             <Flex flexDir="column" align="center" justify="center">
                     <Text fontWeight="700" fontSize="5xl" color="white">PROJETOS</Text>

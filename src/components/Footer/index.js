@@ -14,18 +14,22 @@ const Footer = () => {
                                 <Image src="./arrouba.svg" alt="arrouba"/>
                                 <Text ml="0.625rem" color="white" fontWeight="700" fontSize="xl">cacic.ibilce@unesp.br</Text>
                             </Flex>
-                            <Flex w="15rem" align="center">
-                                <Image src="./instagram.svg" alt="instagram"/>
-                                <Text ml="0.625rem" color="white" fontWeight="700" fontSize="xl">@cacic_ibilce</Text>
-                            </Flex>
-                            <Flex w="15rem" align="center" >
-                                <Image src="./facebook.svg" alt="facebook"/>
-                                <Text ml="0.625rem" color="white" fontWeight="700" fontSize="xl">/compibilcecacic</Text>
-                            </Flex>
+                            <a target="_black" href="https://www.instagram.com/cacic_ibilce/">
+                                <Flex w="15rem" align="center">
+                                    <Image src="./instagram.svg" alt="instagram"/>
+                                    <Text ml="0.625rem" color="white" fontWeight="700" fontSize="xl">@cacic_ibilce</Text>
+                                </Flex>
+                            </a>
+                            <a target="_black" href="https://www.facebook.com/compibilcecacic">
+                                <Flex w="15rem" align="center" >
+                                    <Image src="./facebook.svg" alt="facebook"/>
+                                    <Text ml="0.625rem" color="white" fontWeight="700" fontSize="xl">/compibilcecacic</Text>
+                                </Flex>
+                            </a>
                         </VStack>
                     </Flex>
 
-                    <Button size="lg" colorScheme="purple">FAÇA PARTE</Button>
+                    <a href="https://api.whatsapp.com/send/?phone=556291306563&text&type=phone_number&app_absent=0" target="_blank"><Button size="lg" colorScheme="purple">FAÇA PARTE</Button></a>
                 </Flex>
             </Container>
         </Flex>

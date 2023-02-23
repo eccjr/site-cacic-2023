@@ -1,0 +1,19 @@
+.texts {
+    cursor: pointer;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+    a:hover {
+        color: #915CF3;
+    }
+
+    a.active {
+        color: #915CF3 !important;
+    }
+}
+
+.active {
+    color: #915CF3 !important;
+}
+

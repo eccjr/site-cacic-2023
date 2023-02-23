@@ -2,7 +2,7 @@ import * as React from "react"
 import { Flex } from "@chakra-ui/react" 
 import { theme } from './theme'
 import { ChakraProvider } from '@chakra-ui/react'
-import "./main.scss"
+
 import Helmet from "react-helmet"
 import Header from "../components/Header"
 import Inicio from "../components/Inicio"
@@ -11,6 +11,8 @@ import Projetos from "../components/Projetos"
 import Festas from "../components/Festas"
 import Equipe from "../components/Equipe"
 import Footer from "../components/Footer"
+
+import "./main.scss"
 
 const IndexPage = () => {
 
