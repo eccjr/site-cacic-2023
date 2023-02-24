@@ -4,7 +4,7 @@ import { theme } from './theme'
 import { ChakraProvider } from '@chakra-ui/react'
 
 import Helmet from "react-helmet"
-import Header from "../components/Header"
+import { Header } from "../components/Header"
 import Inicio from "../components/Inicio"
 import Sobre from "../components/Sobre"
 import Projetos from "../components/Projetos"

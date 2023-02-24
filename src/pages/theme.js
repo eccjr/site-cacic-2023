@@ -10,7 +10,7 @@ export const theme = extendTheme({
         branco_escuro: '#D9D9D9',
         branco_claro: '#F3F3F3',
         preto: '#0F0F0F',
-        bg_color: '#1E1E1E'
+        bg_color: '#0F0F0F'
     },
     fonts: {
         heading: 'Roboto',
