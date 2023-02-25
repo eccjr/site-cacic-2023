@@ -25,7 +25,7 @@ const NotFoundPage = () => {
         h="100vh"
       >
         <Text fontSize="5xl" color="white">Página não encontrada</Text>
-        <Text fontSize="2xl" color="white" >Voltar para o <Link href="/"><a style={{color: "#915CF3",fontWeight: "bold",letterSpacing: "0.1rem", textDecoration: "underline"}}>ÍNICIO</a></Link></Text>
+        <Text fontSize="2xl" color="white" >Voltar para o <Link href="/"><span style={{color: "#915CF3",fontWeight: "bold",letterSpacing: "0.1rem", textDecoration: "underline"}}>ÍNICIO</span></Link></Text>
       </Flex>
     </ChakraProvider>
   )

@@ -13,7 +13,7 @@ const Equipe = () => {
 
     return (
         <Flex id="equipe" w="100vw" mt="11.25rem">
-            <Container  maxW={["22rem","90rem"]} margin="auto" padding="2.5 16">
+            <Container  maxW={["22rem","90rem"]} margin="auto" padding="2.5 16" style={{ userSelect: "none" }}>
             <Flex flexDir="column" align="center" justify="center">
                 <Text fontWeight="700" fontSize={["4xl","5xl"]} letterSpacing={["0.2rem",""]} color="white">EQUIPE</Text>
                 <Flex w="100%" mt="20" align="center" justify="center">

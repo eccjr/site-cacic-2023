@@ -8,7 +8,7 @@ const Projetos = () => {
             <Container  maxW={["22rem","90rem"]} margin="auto" padding="2.5 16">
             <Flex flexDir="column" align="center" justify="center">
                 <Text fontWeight="700" fontSize={["4xl","5xl"]} letterSpacing={["0.2rem",""]} color="white">PROJETOS</Text>
-                <Flex w="100%" mt="20" align="center" justify="space-between" flexDir={["column","row"]}>
+                <Flex w="100%" mt="20" align="center" justify="space-between" flexDir={["column","column","column","row"]}>
                     <Flex w="30rem" h="23.75rem" justify="space-evenly" align="center" flexDir="column">
                         <Image boxShadow="8.125rem"  src="./ícone_onibus.svg" alt="onibus"/>
                         <Text textTransform="uppercase" align="center" maxW="18rem" color="white" fontWeight="700" fontSize={["xl","2xl"]}>excursões para festivais tecnológicos</Text>
@@ -22,7 +22,7 @@ const Projetos = () => {
                         <Text textTransform="uppercase" align="center" maxW="15rem" color="white" fontWeight="700" fontSize={["xl","2xl"]}>Festas e integrações</Text>
                     </Flex>
                 </Flex>
-                <Flex w="100%" mt="20" align="center" justify="space-between" flexDir={["column","row"]}>
+                <Flex w="100%" mt="20" align="center" justify="space-between" flexDir={["column","column","column","row"]}>
                     <Flex w="30rem" h="23.75rem" justify="space-evenly" align="center" flexDir="column">
                             <Image boxShadow="8.125rem"  src="./controle.svg" alt="controle"/>
                             <Text textTransform="uppercase" align="center" maxW="18rem" color="white" fontWeight="700" fontSize={["xl","2xl"]}>COMPETIÇÃO DE GAMES E HACKATON</Text>
