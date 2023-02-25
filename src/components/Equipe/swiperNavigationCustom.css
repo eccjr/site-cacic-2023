@@ -1,0 +1,36 @@
+.swiper-button-next {
+    background-image: url(../../images/icon_seta_esquerda.svg);
+    transform: rotate(180deg);
+    background-repeat: no-repeat !important;
+    background-size: 100% auto;
+    background-position: center;
+    transition:0.3s;
+    user-select: none;
+}
+.swiper-button-prev {
+    background-image: url(../../images/icon_seta_esquerda.svg);
+    background-repeat: no-repeat !important;
+    background-size: 100% auto;
+    background-position: center;
+    transition:0.3s;
+    user-select: none;
+}
+.swiper-button-next:hover{
+    transform: scale(1.2) rotate(180deg);
+}
+.swiper-button-prev:hover{
+    transform: scale(1.2);
+}
+@media (max-width: 26.5625rem){
+    .swiper-button-next, .swiper-button-prev{
+        display: none !important;
+    }
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
