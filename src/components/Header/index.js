@@ -25,6 +25,7 @@ const Menu = ({openModal,setOpenModal}) => {
             zIndex="9999"
             position="fixed"
             backgroundColor="bg_color"
+            backgroundImage="radial-gradient(14rem 14rem at 4% 0.5%, rgba(145, 92, 243, 0.33) 0%, rgba(145, 92, 243, 0) 100%),radial-gradient(14rem 14rem at 100% 80%, rgba(145, 92, 243, 0.11) 0%, rgba(145, 92, 243, 0) 100%)"
             flex="column"
             align="start !important"
             w="100vw"
@@ -40,7 +41,7 @@ const Menu = ({openModal,setOpenModal}) => {
                 <Flex align="center" justify="center">
                     <VStack gap="10" style={{ userSelect: "none", outline: 'none' }} className={styles.texts} mt="20">
                         <ScrollLink to="sobre" offset={-200} >
-                            <a onClick={() => setOpenModal(!openModal)}>Sobre o Ca</a>
+                            <a onClick={() => setOpenModal(!openModal)}>Sobre o CA</a>
                         </ScrollLink>
                         <ScrollLink  to="projetos" offset={-200} >
                             <a onClick={() => setOpenModal(!openModal)}>Projetos</a>
@@ -52,7 +53,7 @@ const Menu = ({openModal,setOpenModal}) => {
                             <a onClick={() => setOpenModal(!openModal)}>Equipe</a>
                         </ScrollLink>
                             
-                        <a onClick={() => setOpenModal(!openModal)} href="https://api.whatsapp.com/send/?phone=556291306563&text&type=phone_number&app_absent=0" target="_blank"><Button colorScheme="purple" variant='outline'>Faça Parte</Button></a>
+                        <a onClick={() => setOpenModal(!openModal)} href="https://api.whatsapp.com/send/?phone=556291306563&text&type=phone_number&app_absent=0" rel="noreferrer" target="_blank"><Button colorScheme="purple" variant='outline'>Faça Parte</Button></a>
                     </VStack>
                 </Flex>
             </Container>
@@ -102,7 +103,7 @@ export const Header = () => {
                         <Image boxSize='16' src="logo.svg" alt='logo'/>
                         <HStack gap="16" style={{ userSelect: "none" }} className={styles.texts}>
                             <ScrollLink to="sobre" offset={-200} >
-                                Sobre o Ca
+                                Sobre o CA
                             </ScrollLink>
                             <ScrollLink to="projetos" offset={-200} >
                                 Projetos
@@ -114,7 +115,7 @@ export const Header = () => {
                                 Equipe
                             </ScrollLink>
                             
-                            <a href="https://api.whatsapp.com/send/?phone=556291306563&text&type=phone_number&app_absent=0" target="_blank"><Button colorScheme="purple" variant='outline'>Faça Parte</Button></a>
+                            <a href="https://api.whatsapp.com/send/?phone=556291306563&text&type=phone_number&app_absent=0" rel="noreferrer" target="_blank"><Button colorScheme="purple" variant='outline'>Faça Parte</Button></a>
                         </HStack>
                     </Flex> 
                 ): (

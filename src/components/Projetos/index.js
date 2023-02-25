@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Flex, Image, Container, Text, Button, HStack } from "@chakra-ui/react" 
+import { Flex, Image, Container, Text } from "@chakra-ui/react" 
 
 const Projetos = () => {
 

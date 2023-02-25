@@ -22,8 +22,11 @@
     transform: scale(1.2);
 }
 @media (max-width: 26.5625rem){
-    .swiper-button-next, .swiper-button-prev{
-        display: none !important;
+    .swiper-button-next {
+        transform: scale(0.8) rotate(180deg) !important;
+    } 
+    .swiper-button-prev{
+        transform: scale(0.8);
     }
 }
 
