@@ -1,38 +1,174 @@
 {
     "equipe": [
-        "2.webp",
-        "3.webp",
-        "4.webp",
-        "5.webp",
-        "6.webp",
-        "7.webp",
-        "8.webp",
-        "9.webp",
-        "10.webp",
-        "11.webp",
-        "12.webp",
-        "13.webp",
-        "14.webp",
-        "15.webp",
-        "16.webp",
-        "17.webp",
-        "18.webp",
-        "19.webp",
-        "20.webp",
-        "21.webp",
-        "22.webp",
-        "23.webp",
-        "24.webp",
-        "25.webp",
-        "26.webp",
-        "27.webp",
-        "28.webp",
-        "29.webp",
-        "30.webp",
-        "31.webp",
-        "32.webp",
-        "33.webp",
-        "34.webp",
-        "35.webp"  
+        {
+            "nome": "Bianca Aissa",
+            "funcao": "Presidente",
+            "location": "22.webp"
+        },
+        {
+            "nome": "Luiza Cavarçan",
+            "funcao": "Vice-Presidente",
+            "location": "21.webp"
+        },
+        {
+            "nome": "Bruno Vinícius",
+            "funcao": "1 Secretário",
+            "location": "20.webp"
+        },
+        {
+            "nome": "Matheus Santos",
+            "funcao": "2 Secretário",
+            "location": "19.webp"
+        },
+        {
+            "nome": "Bruno Silveira",
+            "funcao": "1 Tesoureiro",
+            "location": "24.webp"
+        },
+        {
+            "nome": "Gabriel Z.",
+            "funcao": "2 Tesoureiro",
+            "location": "23.webp"
+        },
+        {
+            "nome": "Caio Sobrinho",
+            "funcao": "Diretor - Marketing",
+            "location": "5.webp"
+        },
+        {
+            "nome": "Rodrigo Shoiti",
+            "funcao": "Marketing",
+            "location": "2.webp"
+        },
+        {
+            "nome": "Pedro Gatti",
+            "funcao": "Marketing",
+            "location": "3.webp"
+        },
+        {
+            "nome": "Miguel Silva",
+            "funcao": "Marketing",
+            "location": "4.webp"
+        },
+        {
+            "nome": "Matheus Lanzo",
+            "funcao": "Marketing",
+            "location": "6.webp"
+        },
+        {
+            "nome": "Flávia Narumi",
+            "funcao": "Marketing",
+            "location": "7.webp"
+        },
+        {
+            "nome": "Carlos Alberto",
+            "funcao": "Marketing",
+            "location": "8.webp"
+        },
+        {
+            "nome": "Paola Guedes",
+            "funcao": "Diretora - Eventos Sociais",
+            "location": "16.webp"
+        },
+        {
+            "nome": "Gabriel Inagaki",
+            "funcao": "Eventos Sociais",
+            "location": "9.webp"
+        },
+        {
+            "nome": "Vinicius Beltrami",
+            "funcao": "Eventos Sociais",
+            "location": "10.webp"
+        },
+        {
+            "nome": "Étore Xavier",
+            "funcao": "Eventos Sociais",
+            "location": "11.webp"
+        },
+        {
+            "nome": "Ana Beatriz Zeratti",
+            "funcao": "Eventos Sociais",
+            "location": "12.webp"
+        },
+        {
+            "nome": "Nathan Silva",
+            "funcao": "Eventos Sociais",
+            "location": "13.webp"
+        },
+        {
+            "nome": "Luis Felipe",
+            "funcao": "Eventos Sociais",
+            "location": "14.webp"
+        },
+        {
+            "nome": "Luiz Bursi",
+            "funcao": "Eventos Sociais",
+            "location": "15.webp"
+        },
+        {
+            "nome": "Ana Beatriz Takehara",
+            "funcao": "Eventos Sociais",
+            "location": "17.webp"
+        },
+        {
+            "nome": "Ana Catarina Marques",
+            "funcao": "Eventos Sociais",
+            "location": "18.webp"
+        },
+        {
+            "nome": "Gustavo Tomaello",
+            "funcao": "Diretor - Eventos Acadêmicos",
+            "location": "34.webp"
+        },
+        {
+            "nome": "Yhan Pena",
+            "funcao": "Eventos Acadêmicos",
+            "location": "25.webp"
+        },
+        {
+            "nome": "William",
+            "funcao": "Eventos Acadêmicos",
+            "location": "26.webp"
+        },
+        {
+            "nome": "Laiza",
+            "funcao": "Eventos Acadêmicos",
+            "location": "27.webp"
+        },
+        {
+            "nome": "Lara",
+            "funcao": "Eventos Acadêmicos",
+            "location": "28.webp"
+        },
+        {
+            "nome": "Heloisa",
+            "funcao": "Eventos Acadêmicos",
+            "location": "29.webp"
+        },
+        {
+            "nome": "Gabriel Prevato",
+            "funcao": "Eventos Acadêmicos",
+            "location": "30.webp"
+        },
+        {
+            "nome": "Matheus Bordino",
+            "funcao": "Eventos Acadêmicos",
+            "location": "31.webp"
+        },
+        {
+            "nome": "Lucas Emmanuel",
+            "funcao": "Eventos Acadêmicos",
+            "location": "32.webp"
+        },
+        {
+            "nome": "Alex Ricardo",
+            "funcao": "Eventos Acadêmicos",
+            "location": "33.webp"
+        },
+        {
+            "nome": "Daphne Lie",
+            "funcao": "Eventos Acadêmicos",
+            "location": "35.webp"
+        } 
     ]
 }

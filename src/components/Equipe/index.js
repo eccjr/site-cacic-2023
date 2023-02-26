@@ -46,7 +46,11 @@ const Equipe = () => {
                     >
                         {jsonData.equipe.map((e, index) => (
                             <SwiperSlide key={index}>
-                                <Image src={`./equipe/${e}`}  alt={`image_${e}`} />
+                                <Image src={`./equipe/${e.location}`}  alt={`image_${e.location}`} />
+                                <Flex align="center" justify="center" flexDir="column">
+                                    <Text textAlign="center" fontSize={["md","lg"]} color="white">{e.nome}</Text>
+                                    <Text textAlign="center" fontSize={["sm","md"]} color="white">{e.funcao}</Text>
+                                </Flex>
                             </SwiperSlide>
                         ))}
                     </Swiper>
