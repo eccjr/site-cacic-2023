@@ -9,7 +9,7 @@ const Inicio = () => {
     })
 
     return (
-        <Flex w="100vw">
+        <Flex w="100vw" id="inicio">
         <Container  
             maxW={["20rem","75rem"]} 
             margin="auto" 

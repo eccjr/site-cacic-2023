@@ -100,7 +100,7 @@ export const Header = () => {
                         justify="space-between"
                         padding="2.5"
                     >
-                        <Image boxSize='16' src="logo.svg" alt='logo'/>
+                        <ScrollLink to="inicio" offset={-200} ><Image boxSize='16' src="logo.svg" alt='logo'/></ScrollLink>
                         <HStack gap="16" style={{ userSelect: "none" }} className={styles.texts}>
                             <ScrollLink to="sobre" offset={-200} >
                                 Sobre o CA
@@ -122,9 +122,9 @@ export const Header = () => {
                     <Flex   
                         align="center" 
                         justify="space-between"
-                        padding="1.875rem 0 1.875rem  0"
+                        padding="1.875rem 0 1.875rem 0"
                     >
-                        <Image boxSize='3.75rem' src="./logo.svg" alt='logo'/>
+                        <ScrollLink to="inicio" offset={-200}> <Image boxSize='3.75rem' src="./logo.svg" alt='logo'/> </ScrollLink>
                         
                         <Image onClick={handleOpenModalMenu} mt="-10px"  boxSize='3rem' src="./openModal.svg" alt='Menu' />
                     </Flex> 
