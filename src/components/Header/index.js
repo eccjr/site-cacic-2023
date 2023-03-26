@@ -47,7 +47,7 @@ const Menu = ({openModal,setOpenModal}) => {
                             <a onClick={() => setOpenModal(!openModal)}>Projetos</a>
                         </ScrollLink>
                         <ScrollLink  to="festas" offset={-200} >
-                            <a onClick={() => setOpenModal(!openModal)}>Festas</a>
+                            <a onClick={() => setOpenModal(!openModal)}>Eventos</a>
                         </ScrollLink>
                         <ScrollLink to="equipe" offset={-200} >
                             <a onClick={() => setOpenModal(!openModal)}>Equipe</a>
