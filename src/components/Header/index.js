@@ -109,7 +109,7 @@ export const Header = () => {
                                 Projetos
                             </ScrollLink>
                             <ScrollLink to="festas" offset={-200} >
-                                Festas
+                                Eventos
                             </ScrollLink>
                             <ScrollLink to="equipe" offset={-200} >
                                 Equipe
