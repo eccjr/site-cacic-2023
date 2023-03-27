@@ -29,7 +29,7 @@ const Inicio = () => {
                     </ScrollLink> : ""}
                 </Flex>
                 <Flex mt={["3.75rem","2rem","0","0"]} align="center" justify={[ "center","right"]} >
-                    <Image boxSize={["17.5rem","22rem","30rem","37.5rem"]} borderRadius="50%"  src="./image_1.webp" alt="Love Lance"/>
+                    <Image boxSize={["17.5rem","22rem","30rem","37.5rem"]} borderRadius="50%"  src="./image_1.webp" alt="Love Lance" loading="lazy" />
                 </Flex>
                 {isWideVersion ? "" : <ScrollLink to="sobre" offset={-200} >
                         <Button mt={["16","16","16","10"]}>Saber mais</Button>

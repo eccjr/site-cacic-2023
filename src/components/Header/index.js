@@ -35,7 +35,7 @@ const Menu = ({openModal,setOpenModal}) => {
         >
             <Container maxW={["22rem","90rem"]}  padding="2.5 16" style={{ userSelect: "none" }}>
                 <Flex align="start" justify="end" padding="1.875rem 0 1.875rem 0">
-                    <Image onClick={setOpenModal} boxSize="3rem" src="./closeModal.svg" alt="Fechar menu"/>
+                    <Image onClick={setOpenModal} boxSize="3rem" src="./closeModal.svg" alt="Fechar menu" loading="lazy"/>
                 </Flex>
  
                 <Flex align="center" justify="center">
@@ -100,7 +100,7 @@ export const Header = () => {
                         justify="space-between"
                         padding="2.5"
                     >
-                        <ScrollLink to="inicio" offset={-200} ><Image boxSize='16' src="logo.svg" alt='logo'/></ScrollLink>
+                        <ScrollLink to="inicio" offset={-200} ><Image boxSize='16' src="logo.svg" alt='logo' loading="lazy"/></ScrollLink>
                         <HStack gap="16" style={{ userSelect: "none" }} className={styles.texts}>
                             <ScrollLink to="sobre" offset={-200} >
                                 Sobre o CA
@@ -124,9 +124,9 @@ export const Header = () => {
                         justify="space-between"
                         padding="1.875rem 0 1.875rem 0"
                     >
-                        <ScrollLink to="inicio" offset={-200}> <Image boxSize='3.75rem' src="./logo.svg" alt='logo'/> </ScrollLink>
+                        <ScrollLink to="inicio" offset={-200}> <Image boxSize='3.75rem' src="./logo.svg" alt='logo' loading="lazy"/> </ScrollLink>
                         
-                        <Image onClick={handleOpenModalMenu} mt="-10px"  boxSize='3rem' src="./openModal.svg" alt='Menu' />
+                        <Image onClick={handleOpenModalMenu} mt="-10px"  boxSize='3rem' src="./openModal.svg" alt='Menu' loading="lazy" />
                     </Flex> 
                 )}
             </Container>

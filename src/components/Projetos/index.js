@@ -10,15 +10,15 @@ const Projetos = () => {
                 <Text fontWeight="700" fontSize={["4xl","5xl"]} letterSpacing={["0.2rem",""]} color="white">PROJETOS</Text>
                 <Flex w="100%" mt="20" align="center" justify="space-between" flexDir={["column","column","column","row"]}>
                     <Flex w="30rem" h="23.75rem" justify="space-evenly" align="center" flexDir="column">
-                        <Image boxShadow="8.125rem"  src="./ícone_onibus.svg" alt="onibus"/>
+                        <Image boxShadow="8.125rem"  src="./ícone_onibus.svg" alt="onibus" loading="lazy"/>
                         <Text textTransform="uppercase" align="center" maxW="18rem" color="white" fontWeight="700" fontSize={["xl","2xl"]}>excursões para festivais tecnológicos</Text>
                     </Flex>
                     <Flex w="30rem" h="23.75rem" justify="space-evenly" align="center" flexDir="column">
-                        <Image boxShadow="8.125rem" src="./ícone_beca.svg" alt="beca"/>
+                        <Image boxShadow="8.125rem" src="./ícone_beca.svg" alt="beca" loading="lazy"/>
                         <Text textTransform="uppercase" align="center" maxW="18rem" color="white" fontWeight="700" fontSize={["xl","2xl"]}>MINICURSOS EXTRACURRICULARES</Text>
                     </Flex>
                     <Flex w="30rem" h="23.75rem" justify="space-evenly" align="center" flexDir="column">
-                        <Image boxShadow="8.125rem"  src="./ícone_festas.svg" alt="festas"/>
+                        <Image boxShadow="8.125rem"  src="./ícone_festas.svg" alt="festas" loading="lazy"/>
                         <Text textTransform="uppercase" align="center" maxW="15rem" color="white" fontWeight="700" fontSize={["xl","2xl"]}>Festas e integrações</Text>
                     </Flex>
                 </Flex>
